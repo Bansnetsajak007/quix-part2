@@ -3,9 +3,7 @@ const resultContainer = document.getElementById("result");
 const submitButton = document.getElementById("submit-btn");
 const resetButton = document.getElementById("reset-btn");
 
-//
-
-
+//function that randomly reorders array elements
 function shuffleArray(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -46,7 +44,7 @@ function reset_quiz(){
     submitButton.disabled = false;
 }
 
-function submitQuiz() {
+function sumbit_quiz() {
     let score = 0;
     let unanswered = 0;
     quizData.forEach((data, index) => {
@@ -77,15 +75,16 @@ function show_result(score, unanswered) {
   }
 
 
-submitButton.addEventListener("click", submitQuiz);
+submitButton.addEventListener("click", sumbit_quiz);
 resetButton.addEventListener("click", reset_quiz);
 
+//main function that loads .json file data using async javascript model
 async function load_quiz_data(){
     try{
         const response = await fetch('script/data.json');
         const data = await response.json();
         quizData = data;
-        displayQuiz() // calling the main function to display
+        displayQuiz() // calling the function to display data on the webpage
         
         }
         

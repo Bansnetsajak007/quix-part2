@@ -1,0 +1,53 @@
+[
+    {
+      "question": "In which year did Christopher Columbus first reach the Americas?",
+      "options": ["1492", "1521", "1456", "1510"],
+      "answer": "1492"
+    },
+    {
+      "question": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+      "answer": "George Washington"
+    },
+    {
+      "question": "Which ancient civilization built the Machu Picchu citadel in the 15th century?",
+      "options": ["Maya", "Inca", "Aztec", "Egyptian"],
+      "answer": "Inca"
+    },
+    {
+      "question": "The French Revolution began in which year?",
+      "options": ["1776", "1789", "1793", "1802"],
+      "answer": "1789"
+    },
+    {
+      "question": "Who is known for leading a nonviolent movement for India's independence from British rule?",
+      "options": ["Nelson Mandela", "Mohandas Gandhi", "Martin Luther King Jr.", "Winston Churchill"],
+      "answer": "Mohandas Gandhi"
+    },
+    {
+      "question": "Which ancient wonder of the world was located in Egypt and was eventually destroyed by earthquakes?",
+      "options": ["Hanging Gardens of Babylon", "Colossus of Rhodes", "Lighthouse of Alexandria", "Great Pyramid of Giza"],
+      "answer": "Lighthouse of Alexandria"
+    },
+    {
+      "question": "The Renaissance is commonly associated with a revival of interest in which cultural heritage?",
+      "options": ["Greek and Roman", "Egyptian", "Chinese", "Indigenous"],
+      "answer": "Greek and Roman"
+    },
+    {
+      "question": "The Treaty of Versailles officially ended which major conflict?",
+      "options": ["World War I", "American Civil War", "World War II", "Vietnam War"],
+      "answer": "World War I"
+    },
+    {
+      "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+      "options": ["Amelia Earhart", "Bessie Coleman", "Harriet Quimby", "Sally Ride"],
+      "answer": "Amelia Earhart"
+    },
+    {
+      "question": "Which civilization is credited with the invention of paper, gunpowder, and the compass?",
+      "options": ["Greek", "Roman", "Chinese", "Indus Valley"],
+      "answer": "Chinese"
+    }
+  ]
+  

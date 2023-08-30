@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <script src="script/script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .choices {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 1.4rem;
+            border: none;
+            border-radius: 50px;
+            background: linear-gradient(to right, #4fc1e9, #45aaf2);
+            color: #fff;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background: linear-gradient(to right, #45aaf2, #4fc1e9);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select your Quiz Topic</h1>
+        <div class="choices">
+            <button id="cs">ComputerScience</button>
+            <button id="sports">Sports</button>
+            <button id="history">History</button>
+            <button id="nepal">Nepal</button>
+        </div>
+    </div>
+    <script>
+        const button = document.getElementById('nepal');
+        button.addEventListener('click', () => {
+        window.location.href = 'quiz.html'
+})
+    </script>
+</body>
+</html>

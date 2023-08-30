@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Which country has won the most FIFA World Cup titles?",
+      "options": ["Germany", "Brazil", "Italy", "Argentina"],
+      "answer": "Brazil"
+    },
+    {
+      "question": "In which sport would you perform an alley-oop?",
+      "options": ["Basketball", "Tennis", "Golf", "Soccer"],
+      "answer": "Basketball"
+    },
+    {
+      "question": "Who is often referred to as 'The King of Clay' in the world of tennis?",
+      "options": ["Roger Federer", "Novak Djokovic", "Rafael Nadal", "Andy Murray"],
+      "answer": "Rafael Nadal"
+    },
+    {
+      "question": "Which track and field athlete has won the most Olympic gold medals?",
+      "options": ["Usain Bolt", "Carl Lewis", "Michael Johnson", "Jesse Owens"],
+      "answer": "Usain Bolt"
+    },
+    {
+      "question": "Which sport is featured in the Super Bowl, the championship game of the NFL?",
+      "options": ["Baseball", "Basketball", "Hockey", "American Football"],
+      "answer": "American Football"
+    },
+    {
+      "question": "Which country is known for hosting the Tour de France, a prestigious cycling race?",
+      "options": ["Italy", "Spain", "France", "Belgium"],
+      "answer": "France"
+    },
+    {
+      "question": "Which boxer is famous for his catchphrase 'Float like a butterfly, sting like a bee'?",
+      "options": ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather Jr.", "Manny Pacquiao"],
+      "answer": "Muhammad Ali"
+    },
+    {
+      "question": "Which golf major is played at Augusta National Golf Club?",
+      "options": ["The Open Championship", "U.S. Open", "PGA Championship", "The Masters"],
+      "answer": "The Masters"
+    },
+    {
+      "question": "Which country won the first Cricket World Cup in 1975?",
+      "options": ["India", "Australia", "West Indies", "England"],
+      "answer": "West Indies"
+    },
+    {
+      "question": "In which sport would you perform an ollie?",
+      "options": ["Surfing", "Skateboarding", "Snowboarding", "Skiing"],
+      "answer": "Skateboarding"
+    }
+  ]
+  

@@ -3,6 +3,12 @@ const resultContainer = document.getElementById("result");
 const submitButton = document.getElementById("submit-btn");
 const resetButton = document.getElementById("reset-btn");
 
+//taking all the choice button reference
+const cs = document.getElementById('cs');
+const nepal = document.getElementById('nepal');
+const sports = document.getElementById('sports');
+const history = document.getElementById('history');
+
 //function that randomly reorders array elements
 function shuffleArray(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
@@ -78,10 +84,25 @@ function show_result(score, unanswered) {
 submitButton.addEventListener("click", sumbit_quiz);
 resetButton.addEventListener("click", reset_quiz);
 
+//'script/nepal.json'
+cs.addEventListener('click', () => {
+  load_quiz_data('script/computer.json')
+})
+
+nepal.addEventListener('click', () => {
+  load_quiz_data('script/nepal.json')
+})
+history.addEventListener('click', () => {
+  load_quiz_data('script/history.json')
+})
+sports.addEventListener('click', () => {
+  load_quiz_data('script/sports.json')
+})
+
 //main function that loads .json file data using async javascript model
-async function load_quiz_data(){
+async function load_quiz_data(path){
     try{
-        const response = await fetch('script/data.json');
+        const response = await fetch(path);
         const data = await response.json();
         quizData = data;
         displayQuiz() // calling the function to display data on the webpage
@@ -93,4 +114,4 @@ async function load_quiz_data(){
             }
         }
         
-load_quiz_data();
+

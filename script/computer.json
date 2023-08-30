@@ -1,0 +1,103 @@
+[
+    {
+      "question": "What is the C programming language used for?",
+      "options": [
+        "Creating web pages",
+        "Database management",
+        "System programming",
+        "Graphic design"
+      ],
+      "answer": "System programming"
+    },
+    {
+      "question": "Which data structure is used to implement a Last-In-First-Out (LIFO) behavior?",
+      "options": [
+        "Queue",
+        "Linked List",
+        "Stack",
+        "Tree"
+      ],
+      "answer": "Stack"
+    },
+    {
+      "question": "What does HTML stand for in web development?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High-Level Text Manipulation Language",
+        "Hyperlink and Text Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Which sorting algorithm has an average-case time complexity of O(n log n)?",
+      "options": [
+        "Bubble Sort",
+        "Insertion Sort",
+        "Quick Sort",
+        "Selection Sort"
+      ],
+      "answer": "Quick Sort"
+    },
+    {
+      "question": "What is a pointer in C++?",
+      "options": [
+        "A variable that stores multiple values",
+        "A function that returns multiple values",
+        "A variable that stores the memory address of another variable",
+        "A data type used for storing text"
+      ],
+      "answer": "A variable that stores the memory address of another variable"
+    },
+    {
+      "question": "What does CPU stand for?",
+      "options": [
+        "Computer Personal Unit",
+        "Central Processing Unit",
+        "Control Panel Unit",
+        "Central Personal Unit"
+      ],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "question": "Which type of join in SQL returns all records from both tables?",
+      "options": [
+        "INNER JOIN",
+        "OUTER JOIN",
+        "LEFT JOIN",
+        "CROSS JOIN"
+      ],
+      "answer": "FULL OUTER JOIN"
+    },
+    {
+      "question": "In object-oriented programming, what is encapsulation?",
+      "options": [
+        "The process of converting code to machine language",
+        "The process of hiding internal implementation details and exposing only necessary functionalities",
+        "The process of converting data to objects",
+        "The process of optimizing code for better performance"
+      ],
+      "answer": "The process of hiding internal implementation details and exposing only necessary functionalities"
+    },
+    {
+      "question": "What is the purpose of an 'if' statement in programming?",
+      "options": [
+        "To create a loop",
+        "To declare a variable",
+        "To define a function",
+        "To make a decision"
+      ],
+      "answer": "To make a decision"
+    },
+    {
+      "question": "Which type of network topology involves a central hub and all nodes are connected to this hub?",
+      "options": [
+        "Ring topology",
+        "Star topology",
+        "Bus topology",
+        "Mesh topology"
+      ],
+      "answer": "Star topology"
+    }
+  ]
+  

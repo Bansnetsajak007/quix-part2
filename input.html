@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <div class="container">
+        <h3 id="heading">Before Starting, Please Enter Your Name</h3>
+        <div class="input">
+            <input type="text" placeholder="Your Name" id="name"><br>
+            <button id="submit">Sumbit</button>
+        </div>
+    </div>
+    <script>
+        const button = document.getElementById('submit');
+
+        button.addEventListener('click', () => {
+            window.location.href = 'choice.html'
+        })
+    </script>
+</body>
+</html>
